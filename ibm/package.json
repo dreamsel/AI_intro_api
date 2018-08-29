@@ -1,0 +1,21 @@
+{
+  "name": "ibm-ai",
+  "version": "1.0.0",
+  "description": "testing ibm cognition services, ai-based",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "IBM",
+    "AI",
+    "playgrount"
+  ],
+  "author": "Dmytro Selin",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "watson-developer-cloud": "^3.9.0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "googleai",
+  "version": "1.0.0",
+  "description": "playing with google ml services",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "artificial",
+    "intelligence",
+    "machine",
+    "learning",
+    "google",
+    "API"
+  ],
+  "author": "Dmytro Selin",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/language": "^1.2.0",
+    "@google-cloud/speech": "^2.0.0",
+    "@google-cloud/translate": "^1.1.0",
+    "@google-cloud/vision": "^0.21.0",
+    "axios": "^0.18.0",
+    "dotenv": "^6.0.0"
+  }
+}
